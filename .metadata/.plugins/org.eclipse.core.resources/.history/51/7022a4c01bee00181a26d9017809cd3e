@@ -1,0 +1,46 @@
+package com.qa.test;
+
+import java.net.MalformedURLException;
+
+import org.testng.annotations.Test;
+
+import com.qa.appbase.BaseClassAmazon;
+import com.qa.pages.HomePage;
+import com.qa.pages.SignInPage;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class HomeTest extends BaseClassAmazon {
+	
+	SignInPage signup;
+	HomePage home;
+	
+	
+	
+	@Test
+	public void test1() throws MalformedURLException, InterruptedException 
+	{
+		AndroidDriver<AndroidElement> driver =  FlipKart();
+		
+		
+		signup = new SignInPage(driver);
+		signup.sendMobileNo("8565009444");
+		signup.clickSignUpButton();
+		signup.sendMobilePassword("262961347");
+		signup.clickOnSignInButton();
+		System.out.println(driver.getContext());
+		
+	    home = new HomePage(driver);
+	    home.searchingPage.click();
+	    home.searchproduct.sendKeys("Mackbook air");
+	    Thread.sleep(5000);
+		
+		
+		
+		
+	}
+}		
+//mackbook 
+// 1.click
+//

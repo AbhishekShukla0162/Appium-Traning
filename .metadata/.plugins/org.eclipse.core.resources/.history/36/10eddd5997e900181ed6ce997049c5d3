@@ -1,0 +1,9 @@
+package exceptionHandling;
+
+public class TwoThrowsKeyWord {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

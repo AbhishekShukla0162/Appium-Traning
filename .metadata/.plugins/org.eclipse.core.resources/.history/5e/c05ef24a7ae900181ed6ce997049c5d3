@@ -1,0 +1,21 @@
+package abstraction;
+
+public class Base extends Shape{
+	
+public static void main(String[] args) {
+		 Shape s = new Base();
+
+	}
+
+
+	public void get()
+	{
+		System.out.println("get ready for drawing");
+	}
+	
+	public void draw() 
+	{
+		System.out.println("Draw the circle");
+	}
+	
+}

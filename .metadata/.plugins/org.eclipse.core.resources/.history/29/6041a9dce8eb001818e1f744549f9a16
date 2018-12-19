@@ -1,0 +1,11 @@
+package finalkey;
+
+public class KeyFinal  extends KeyWordFinal {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

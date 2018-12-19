@@ -1,0 +1,92 @@
+package com.qa.test;
+
+import java.net.MalformedURLException;
+
+import org.testng.annotations.Test;
+
+
+import com.qa.appbase.BaseClassFlipkart;
+import com.qa.pages.HomePage;
+import com.qa.pages.PDP;
+import com.qa.pages.ProductListPage;
+import com.qa.pages.SignInPage;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class HomeTest extends BaseClassFlipkart {
+	
+	SignInPage signup;
+	HomePage home;
+	ProductListPage productList;
+	PDP productDetailPage;
+	
+	
+	
+	@Test
+	public void test1() throws MalformedURLException, InterruptedException 
+	{
+		AndroidDriver<AndroidElement> driver =  FlipKart();
+		
+		
+		signup = new SignInPage(driver);
+		signup.sendMobileNo("8565009444");
+		signup.clickSignUpButton();
+		signup.sendMobilePassword("262961347");
+		signup.clickOnSignInButton();
+		System.out.println(driver.getContext());
+		
+	    home = new HomePage(driver);
+	    home.searchingPage.click();
+	    home.searchproduct.sendKeys("Mackbook air");
+	    Thread.sleep(5000);
+	    home.mackbook.click();
+	    home.notnow.click();
+	    
+	    productList = new ProductListPage(driver);
+	    
+		String productName =  productList.getProductTittle().substring(0, 68);
+		System.out.println("product Name = " +productName);
+		
+		String productpriceAmount =  productList.getProductPrice().replaceFirst("₹", "").trim();
+		System.out.println("Product Price = " + productpriceAmount);
+		
+		String productRating = productList.getRating().substring(0, 4);
+		System.out.println("Product Rating = " + productRating);
+		
+		String numberOfrating= productList.getNumberRating().substring(1, 6);
+		System.out.println("Number of rating on product = " + numberOfrating);
+		
+		String offerOfproduct = productList.getOffer();
+		System.out.println(" offer = " + offerOfproduct);
+		
+	    //11,870 ratings	
+		//(11,873)
+		
+		productList.productTittle.click();
+		productDetailPage = new PDP(driver);
+	
+		String PDPProductName =  productDetailPage.getPDPproductTitle().substring(0, 68);
+		System.out.println("PDP Product Name = " +PDPProductName);
+		
+		String productPriceOfPDP = productDetailPage.getPDPproductprice().replaceFirst("₹", "").trim();
+		System.out.println("PDP Product Price = " + productPriceOfPDP );
+		
+		
+		String PDPProductrating = productDetailPage.getPDPproductRating().substring(0, 4);
+		System.out.println("PDP Product Rating = " + PDPProductrating);
+		
+		String PDPNumberOfrating = productDetailPage.getPDPnumberRating().substring(0, 5);
+		System.out.println("PDP Product number of rating =  " + PDPNumberOfrating);
+		
+		String PDPProductoffer = productDetailPage.getPDPOffer();
+		System.out.println("PDP Offer = " + PDPProductoffer);
+		
+		
+		/*Assert.assertEquals(PDPProductName, productName, "Product Name is match");
+		Assert.assertEquals(productPriceOfPDP, productpriceAmount, "Price is Match ");
+		Assert.assertEquals(PDPProductrating, productRating, "product rating is match");
+		Assert.assertEquals(PDPProductoffer, offerOfproduct, "offer in product is match");
+		Assert.assertEquals(PDPNumberOfrating, numberOfrating, "number of rating is match");	*/
+		
+	}
+}		

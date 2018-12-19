@@ -1,0 +1,18 @@
+package naveenlabJava;
+
+public class CallByValueCallByReference {
+
+	public static void main(String[] args) {
+		
+		CallByValueCallByReference c = new CallByValueCallByReference();
+	   int  a = c.sum(10, 20);
+	   System.out.println(a);
+	}
+	
+	public int sum(int a , int b )
+	{
+		int  c = a=b;
+		return c;
+	}
+
+}

@@ -1,0 +1,13 @@
+package abstraction;
+
+public abstract class Shape {
+	
+	
+	abstract void get();
+	abstract void draw();
+	
+
+}
+
+//we can not create the object of interface
+// we can not create the object of Abstract class

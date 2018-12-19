@@ -1,0 +1,20 @@
+package exceptionHandling;
+
+public class OneTryCatch {
+
+	public static void main(String[] args) {
+		
+		try {
+			int a = 9/0;
+		}catch(ArithmeticException e) 
+		{
+			char[] a;
+			System.out.println(a);	
+		}
+		 
+		 System.out.println("Hello");
+		 
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package abstractionprogramm;
+
+public abstract class Bank {
+  
+	abstract int rateOfIntrest();
+	 abstract int minBalance();
+	 
+	 public void MonyTransfer() {
+		 Object c;
+		return c;
+	 }
+
+}

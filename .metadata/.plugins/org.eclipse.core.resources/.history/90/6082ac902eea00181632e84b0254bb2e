@@ -1,0 +1,31 @@
+package naveenlabJava;
+
+public class WrapperClassConcept {
+
+	public static void main(String[] args) {
+		String a = "100";
+	   System.out.println(a + 20);
+	   
+	   // conversion of integer  to String
+	   int b =  Integer.parseInt(a);
+	   
+		System.out.println(b);
+
+		// every data type have separate wrapper class 
+		// string to double 
+		 String  s = "12.33";
+		 double d =  Double.parseDouble(s);
+		 System.out.println(d+ 10);
+		 
+		 //integer to string
+		 
+		 int j = 200;
+		 System.out.println(j+ 20);
+		 
+		 String str = String.valueOf(j);
+		 
+		 System.out.println(j+ 20);
+		 
+	}
+
+}

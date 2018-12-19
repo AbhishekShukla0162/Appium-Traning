@@ -1,0 +1,17 @@
+package interfaceProgramm;
+
+public class Base   implements Kotak{
+
+	
+	public void divide() {
+		System.out.println("Divide ");
+		
+	}
+
+	
+	public void multiply() {
+		System.out.println("multiply  ");
+		
+	}
+
+}

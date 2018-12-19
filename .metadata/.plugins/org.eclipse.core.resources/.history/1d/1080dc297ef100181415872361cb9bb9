@@ -1,0 +1,22 @@
+package abstraction;
+
+// Abstraction means hinding the implementation detail  showing the funcatinality 
+public abstract class Shape {
+	
+	public Shape()
+	{
+		System.out.println("Shape class constructor");
+	}
+	
+	abstract void get();
+	abstract void draw();
+	
+	public void fill() 
+	{
+		System.out.println("fill it ");
+	}
+	
+}
+
+//we can not create the object of interface
+// we can not create the object of Abstract class

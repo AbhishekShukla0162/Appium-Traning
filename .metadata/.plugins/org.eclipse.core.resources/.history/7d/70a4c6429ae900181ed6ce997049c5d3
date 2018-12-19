@@ -1,0 +1,26 @@
+package exceptionHandling;
+
+public class TwoThrowsKeyWord {
+	
+	public static void main(String[] args){
+		TwoThrowsKeyWord obj = new TwoThrowsKeyWord();
+		obj.sum();
+		
+		System.out.println("hello word ");
+		
+	}
+
+	public void sum() 
+	{
+		try {
+		div();
+		}catch (ArithmeticException e)
+		{}
+	}
+	
+	public void div() throws ArithmeticException
+	{
+		int a = 9/0;
+	} 
+	
+}

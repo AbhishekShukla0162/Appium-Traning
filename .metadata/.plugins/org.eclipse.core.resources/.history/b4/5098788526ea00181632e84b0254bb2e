@@ -1,0 +1,22 @@
+package naveenlabJava;
+
+public class Loop {
+
+	public static void main(String[] args) {
+		
+	int i = 2;
+	while(i<=20) { // condition  
+		System.out.println(i);
+		 i = i*2;// increment / decrement // if u not give incr/decr condition the java lopp going for infinite time 
+		 
+		 for(int j = 2 ; j<=20; j ++)
+		 {
+			System.out.println(j); 
+			j  = j* 2;
+		 }
+	}
+		
+
+	}
+
+}

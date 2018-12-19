@@ -1,0 +1,15 @@
+package array;
+
+public class Single {
+
+	public static void main(String[] args) {
+	
+		System.out.println("hello  ");
+
+		int a [] = {2,4,6};
+		
+		System.out.println(a);
+
+	}
+
+}

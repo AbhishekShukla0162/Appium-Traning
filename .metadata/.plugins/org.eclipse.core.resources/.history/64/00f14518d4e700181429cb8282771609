@@ -1,0 +1,118 @@
+package com.qa.test;
+
+import static io.appium.java_client.touch.offset.ElementOption.element;
+import java.net.MalformedURLException;
+import org.testng.annotations.Test;
+import com.qa.appbase.BaseClassApiDemo;
+import com.qa.pages.AccessibilityPage;
+import com.qa.pages.AnimationPage;
+import com.qa.pages.AppPage;
+import com.qa.pages.ContentPage;
+import com.qa.pages.HomePage;
+import com.qa.pages.ViewPage;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
+import  static java.time.Duration.ofSeconds;
+
+      
+
+public class HomeTest extends BaseClassApiDemo {
+		
+	HomePage Home;
+	AccessibilityPage Accessibility;
+	AnimationPage Animation;
+	AppPage App;
+    ViewPage Views;
+    ContentPage Content;
+   
+	
+		@Test
+		public void Test1() throws MalformedURLException
+		{
+			AndroidDriver<AndroidElement> driver = ApiDemo();
+			Home = new HomePage(driver);
+			Home.Accessibility.click();
+			Accessibility = new AccessibilityPage(driver);
+		    Accessibility.Accessibility_Node_Provider.click();
+		    
+		    
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		   
+		    //driver.navigate().back();
+		    //driver.navigate().back();
+		    
+		    
+		    
+		    
+		    Home.Animation.click();
+		    Animation = new AnimationPage(driver);
+		    Animation.Bouncing_Balls.click();
+		    
+		    //driver.navigate().back();
+		    //driver.navigate().back();
+		    
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    
+		    Home.App.click();
+		    App = new AppPage(driver);
+		    App.Voice_Recognition.click();
+		    
+		    
+		    
+		    
+		    //driver.navigate().back();
+		    //driver.navigate().back();
+		    
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		   
+		    
+		    Home.Views.click();
+		    Views = new ViewPage(driver);
+		    Views.Expandable_Lists.click();
+		    Views.Custom_Adapter.click();
+		    
+		    TouchAction touch = new TouchAction(driver);
+			touch.longPress(longPressOptions().withElement(element(Views.People_Names)).withDuration(ofSeconds(2))).release().perform();
+			System.out.println(driver.findElementById("android:id/title").isDisplayed());
+			
+			 
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    
+		    
+			Home.Content.click();
+			Content = new ContentPage(driver);
+			Content.assets.click();
+			
+			driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    
+		    
+		    Home.Views.click();
+		    Views.dragdrop.click();
+		    touch.longPress(longPressOptions().withElement(element(Views.source))).moveTo(element(Views.destination)).release().perform();
+		    
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    
+		    Home.Views.click();
+		    Views.DateWidgets.click();
+		    Views.inline.click();
+		    Views.contentdesc.click();
+		    touch.longPress(longPressOptions().withElement(element(Views.sourceforswap))).moveTo(element(Views.destinationforswap)).release().perform();    
+			
+		    
+		    
+		    
+		    
+		}
+}

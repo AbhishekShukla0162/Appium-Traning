@@ -1,0 +1,14 @@
+package finalkey;
+
+public class SimpleFinal {
+	
+	public static void main(String[] args) {
+		
+		
+	final int  a =  20;
+	
+	System.out.println(a);
+	
+		
+	}
+}

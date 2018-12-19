@@ -1,0 +1,22 @@
+abstract class Bikeeeee{
+	abstract void run();
+	 {
+			System.out.println("this is bike ");
+		}
+}
+
+
+
+public  class AbstractBikeHonda extends Bikeeeee{
+	void run() {
+		System.out.println("now its name is honda ");
+	}
+
+	public static void main(String[] args) {
+		
+		Bikeeeee b = new AbstractBikeHonda();
+	b.run();
+
+	}
+
+}

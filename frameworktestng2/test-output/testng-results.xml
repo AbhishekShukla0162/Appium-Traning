@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Testing2" duration-ms="46" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+    <groups>
+    </groups>
+    <test name="Test Via Package" duration-ms="46" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+      <class name="testngfiles.Annot2">
+        <test-method status="PASS" signature="RunningFile()[pri:0, instance:testngfiles.Annot2@3bbc39f8]" name="RunningFile" duration-ms="4" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunningFile -->
+      </class> <!-- testngfiles.Annot2 -->
+      <class name="testngfiles.Anotation">
+        <test-method status="PASS" signature="WorkOn()[pri:0, instance:testngfiles.Anotation@29f69090]" name="WorkOn" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkOn -->
+        <test-method status="PASS" signature="UserId()[pri:0, instance:testngfiles.Anotation@29f69090]" name="UserId" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+        <test-method status="PASS" signature="A_PrintName()[pri:0, instance:testngfiles.Anotation@29f69090]" name="A_PrintName" duration-ms="2" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_PrintName -->
+        <test-method status="PASS" signature="Approved()[pri:0, instance:testngfiles.Anotation@29f69090]" name="Approved" is-config="true" duration-ms="1" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved -->
+        <test-method status="PASS" signature="UserId()[pri:0, instance:testngfiles.Anotation@29f69090]" name="UserId" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+        <test-method status="PASS" signature="B_BrowserOpen()[pri:0, instance:testngfiles.Anotation@29f69090]" name="B_BrowserOpen" duration-ms="2" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_BrowserOpen -->
+        <test-method status="PASS" signature="C_Booking()[pri:0, instance:testngfiles.Anotation@29f69090]" name="C_Booking" duration-ms="2" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Booking -->
+        <test-method status="PASS" signature="Approved()[pri:0, instance:testngfiles.Anotation@29f69090]" name="Approved" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved -->
+        <test-method status="PASS" signature="UserId()[pri:0, instance:testngfiles.Anotation@29f69090]" name="UserId" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+        <test-method status="PASS" signature="Approved()[pri:0, instance:testngfiles.Anotation@29f69090]" name="Approved" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved -->
+        <test-method status="PASS" signature="WorkDone()[pri:0, instance:testngfiles.Anotation@29f69090]" name="WorkDone" is-config="true" duration-ms="0" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkDone -->
+      </class> <!-- testngfiles.Anotation -->
+      <class name="testng.frameworktestng2.Annot2">
+        <test-method status="PASS" signature="FirstExecute()[pri:0, instance:testng.frameworktestng2.Annot2@4ae3c1cd]" name="FirstExecute" is-config="true" duration-ms="11" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstExecute -->
+        <test-method status="PASS" signature="FirstExecute()[pri:0, instance:testngfiles.Annot2@3bbc39f8]" name="FirstExecute" is-config="true" duration-ms="1" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstExecute -->
+        <test-method status="PASS" signature="RunningFile()[pri:0, instance:testng.frameworktestng2.Annot2@4ae3c1cd]" name="RunningFile" duration-ms="2" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunningFile -->
+        <test-method status="PASS" signature="RunningFile2()[pri:0, instance:testng.frameworktestng2.Annot2@4ae3c1cd]" name="RunningFile2" duration-ms="2" started-at="2018-11-09T06:58:13Z" finished-at="2018-11-09T06:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunningFile2 -->
+        <test-method status="PASS" signature="LastExecute()[pri:0, instance:testng.frameworktestng2.Annot2@4ae3c1cd]" name="LastExecute" is-config="true" duration-ms="1" started-at="2018-11-09T06:58:14Z" finished-at="2018-11-09T06:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastExecute -->
+        <test-method status="PASS" signature="LastExecute()[pri:0, instance:testngfiles.Annot2@3bbc39f8]" name="LastExecute" is-config="true" duration-ms="1" started-at="2018-11-09T06:58:14Z" finished-at="2018-11-09T06:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastExecute -->
+      </class> <!-- testng.frameworktestng2.Annot2 -->
+    </test> <!-- Test Via Package -->
+  </suite> <!-- Automation Testing2 -->
+</testng-results>

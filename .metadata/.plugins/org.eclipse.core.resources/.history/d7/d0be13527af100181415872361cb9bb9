@@ -1,0 +1,48 @@
+package array;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int a[] = {2,4,6,8,10,12,14,16,18,20};
+		
+		System.out.println(a[4] + " " + a[9]);
+		for(int temp : a)
+		{
+			System.out.println(temp);
+		}
+		
+		
+		
+		int [] x = new int [5];
+		x[0]=10;
+		x[4]=20;
+		for ( int temp2 : x)
+		{
+			System.out.println(temp2);
+		}
+		
+		String s [] = {"one" , "two" , "three" , "four" };
+		
+		s[4]="five";
+		s[5]="six";
+		
+		for (String temp3 : s)
+		{
+			System.out.println(temp3);
+		}
+		
+		String [] s1 = new String [5];
+		s1[0] = "One";
+		s1[3] = "four";
+		for(String temp4 : s1)
+		{
+			System.out.println(temp4);
+		}
+		
+		int TwoD[][] = new int [4][3];
+		
+		
+
+	}
+
+}

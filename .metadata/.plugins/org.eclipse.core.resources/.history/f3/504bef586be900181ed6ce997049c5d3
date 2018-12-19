@@ -1,0 +1,10 @@
+package interfaceProgramm2;
+
+public class TextBank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

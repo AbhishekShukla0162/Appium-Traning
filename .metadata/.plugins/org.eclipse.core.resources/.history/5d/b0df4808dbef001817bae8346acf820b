@@ -1,0 +1,12 @@
+package com.qa.test;
+
+import com.qa.appbase.BaseClassFlipkart;
+
+public class HomeTest2 extends BaseClassFlipkart {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

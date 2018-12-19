@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing">
+	<test name = "Smoke Test ">
+			<classes>
+				<class name = "testng.PraticeOnTestNgWithPageobjectModel.ApiDemoExtendsMainPage"></class>
+				
+			</classes>
+	</test>
+</suite>

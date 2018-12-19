@@ -1,0 +1,29 @@
+package naveenlabJava;
+
+public class MethodorFunctionOverloading {
+
+	public static void main(String[] args) {
+		
+		MethodorFunctionOverloading f = new MethodorFunctionOverloading();
+		f.sum();
+		f.sum("Abhisjhekkl");
+		f.sum("Abhishek", "Shujkla ");
+        
+	}
+	
+	public void sum()
+	{
+		System.out.println("hii im one  ");
+	}
+
+	public void sum(String a )
+	{
+		System.out.println("hii im one  ");
+	}
+	
+	public void sum(String  a , String  b )
+	{
+		System.out.println("hii im one  ");
+	}
+	
+}

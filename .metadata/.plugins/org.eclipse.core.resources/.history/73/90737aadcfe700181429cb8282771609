@@ -1,0 +1,53 @@
+package com.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+
+
+public class ViewPage {
+	AndroidDriver<AndroidElement> driver;
+	
+	
+	public ViewPage(AndroidDriver<AndroidElement> driver)
+	{
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	}
+	
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text = 'Expandable Lists']")
+	public WebElement Expandable_Lists;
+	
+	@AndroidFindBy( xpath = "//android.widget.TextView[@text = '1. Custom Adapter']")
+	public WebElement Custom_Adapter;
+	
+	 @AndroidFindBy( xpath = "//android.widget.TextView[@text = 'People Names']")
+	 public WebElement People_Names;
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text = 'Drag and Drop']")
+	public WebElement dragdrop;
+	
+	                      //DragAndDrop
+	                      @AndroidFindBy(xpath = "//android.view.View[@index = '1']")
+	                      public WebElement source;
+	                      @AndroidFindBy (xpath = "//android.view.View[@index = '2']")
+	                      public WebElement destination;
+	                      ///////////
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text = 'Date Widgets']")
+	public WebElement DateWidgets;
+	
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text = '2. Inline']")
+	public WebElement inline;
+	
+	@AndroidFindBy(xpath = "//android.widget.RadialTimePickerView$RadialPickerTouchHelper[@content-desc = '11']")
+	public WebElement contentdesc;
+	
+	
+	
+	
+	
+	
+}

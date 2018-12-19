@@ -1,0 +1,23 @@
+package constructorandthis;
+
+public class classOne {
+	
+	int age = 30 ;
+	String name = "Amit";
+	 
+	public classOne()
+	{
+		System.out.println("default constructor");
+	}
+	
+	public classOne(int age , String name)
+	{
+		System.out.println("parameter  constructor");
+		System.out.println( age + " " + name);
+		
+		
+	}
+	
+	
+
+}

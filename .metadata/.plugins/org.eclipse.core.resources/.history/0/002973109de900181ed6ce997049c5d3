@@ -1,0 +1,34 @@
+package exceptionHandling;
+
+public class TwoThrowsKeyWord {
+	
+	public static void main(String[] args){
+		TwoThrowsKeyWord obj = new TwoThrowsKeyWord();
+		obj.sum();
+		
+		System.out.println("hello word ");
+		
+	}
+
+	public void sum() {
+	
+		try {
+		div();
+		//} catch (Throwable e) we can use both but if we use Throwable keyword any error is coming or exception is comimg is handle.
+		// Throwable is super class of all  (1. error and 2. exception )
+     	} catch (ArithmeticException e)
+       // } catch (Exception e) we can use exception only its show u any type of exception 
+		
+		{	
+			
+		}
+		
+		
+	}
+	
+	public void div() throws ArithmeticException
+	{
+		int a = 9/0;
+	} 
+	
+}

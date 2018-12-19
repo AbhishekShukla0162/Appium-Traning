@@ -1,0 +1,19 @@
+
+
+class Bank {
+	int  rate ()
+	{
+		return 0;
+		
+	}
+}
+public class praticePolymorphism {
+	public static void main(String[] args) {
+		
+		//praticePolymorphism c = new praticePolymorphism();
+		Bank b= new Bank();
+		b.rate()
+		
+	}
+
+}

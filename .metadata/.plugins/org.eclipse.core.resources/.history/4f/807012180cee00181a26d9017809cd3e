@@ -1,0 +1,9 @@
+package com.qa.test;
+
+import com.qa.appbase.BaseClassAmazon;
+
+public class HomeTest  extends  BaseClassAmazon {
+	
+	
+
+}

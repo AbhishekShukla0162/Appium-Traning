@@ -1,0 +1,13 @@
+package abstractionprogramm;
+
+public class TestBank extends ICICI {
+
+	public static void main(String[] args) {
+		
+		TestBank t = new TestBank();
+		t.rateOfIntrest();
+		t.minBalance();
+		t.MonyTransfer();
+	}
+
+}

@@ -1,0 +1,13 @@
+package Encapsulation;
+
+public class BaseEncapsulation {
+	
+	int roll_n0;
+	String name;
+	String email;
+	int mobile;
+	boolean salery;
+
+	
+	
+}

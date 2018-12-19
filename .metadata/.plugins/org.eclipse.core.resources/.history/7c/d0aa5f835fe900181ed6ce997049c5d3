@@ -1,0 +1,38 @@
+package interfaceprogram;
+
+public class IciciBank implements USBank , BrazilBank{
+	
+	// is a class implements any interface it is compulsery to define all method of this interface 
+	
+    public void creditCard()
+    {
+      System.out.println("icicibank  USBank-- credit ");
+    }
+	public void DebitCard()
+	{
+		 System.out.println("icicibank USBank -- Debit  ");
+	}
+	public void Netbankning()
+	{
+		 System.out.println("icicibank USBank -- Net Banking ");	
+	}
+	
+	public void monytransfer() 
+	{
+		System.out.println("icici bank --mony transfer");
+	}
+	// implements brazil bank method 
+	
+	public void welcomeinBraZil()
+	{
+		System.out.println("icici bank brajil - welcome to brazil ");
+	}
+	
+	public void mutualFund()
+	{
+		System.out.println("icici bank brazil -- futual fund ");
+	}
+	
+	
+	
+}

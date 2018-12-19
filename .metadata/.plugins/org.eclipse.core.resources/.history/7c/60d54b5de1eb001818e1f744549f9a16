@@ -1,0 +1,36 @@
+package methodoiveridding;
+
+class Car
+{
+	void start() 
+	{
+		System.out.println("car Start ");
+	}
+	
+	void stop() 
+	{
+		System.out.println("car Stop ");
+	}
+}
+
+class Bnw extends Car
+{
+	void start() 
+	{
+		System.out.println("BmD starts ");
+	}
+}
+
+
+public class TestInheritance {
+
+	public static void main(String[] args)
+	{
+	  Bnw b = new Bnw();
+		b.start();
+
+	 
+	 
+	}
+
+}

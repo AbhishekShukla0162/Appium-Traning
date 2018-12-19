@@ -1,0 +1,11 @@
+package interfaceprogram;
+
+public interface USBank {
+	
+	public void creditCard();
+	
+	public void DebitCard();
+	
+	public void Netbankning();
+	
+}

@@ -1,0 +1,8 @@
+package interfaceprogram;
+
+public interface BrazilBank {
+	
+	public void welcomeinBraZil();
+	public void mutualFund();
+
+}

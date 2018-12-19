@@ -1,0 +1,12 @@
+package com.qa.appbase;
+
+public class BaseClassAmazon {
+
+	public static void main(String[] args) {
+		
+		DesiredCapabilities cap = new DesiredCapabilities();
+		
+
+	}
+
+}

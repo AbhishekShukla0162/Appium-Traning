@@ -1,0 +1,30 @@
+package abstraction;
+
+public class TestShape extends Shape{
+	
+public static void main(String[] args) {
+	
+	public TestShape()
+	{
+		
+	}
+	     
+		 Shape s = new TestShape();
+		 s.get();
+		 s.draw();
+		 s.fill();
+
+	}
+
+
+	public void get()
+	{
+		System.out.println("get ready for drawing");
+	}
+	
+	public void draw() 
+	{
+		System.out.println("Draw the circle");
+	}
+	
+}

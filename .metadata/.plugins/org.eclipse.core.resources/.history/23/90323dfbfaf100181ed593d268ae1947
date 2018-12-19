@@ -1,0 +1,15 @@
+
+public class AAAA {
+
+	public static void main(String[] args) {
+		
+
+	}
+	 int  sum()
+	{
+		return 0;
+		
+	}
+
+	
+}

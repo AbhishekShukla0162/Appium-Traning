@@ -1,0 +1,16 @@
+package interfaceprogram;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+       IciciBank i = new IciciBank();
+       i.creditCard();
+       i.DebitCard();
+       i.monytransfer();
+       i.Netbankning();
+       
+       
+	}
+
+}

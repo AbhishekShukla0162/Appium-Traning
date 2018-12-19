@@ -1,0 +1,15 @@
+package constructorandthis;
+
+public class classOne {
+	
+	int age;
+	String name;
+	 
+	public classOne( int age , String name)
+	{
+		System.out.println("default constructor");
+	}
+	
+	
+
+}

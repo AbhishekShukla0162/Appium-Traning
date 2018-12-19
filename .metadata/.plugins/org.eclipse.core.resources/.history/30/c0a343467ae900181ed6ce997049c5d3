@@ -1,0 +1,17 @@
+package abstraction;
+
+public class Base extends Shape{
+
+	
+	
+	void get()
+	{
+		
+	}
+
+	void draw()
+	
+	{
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.qa.test;
+
+import java.net.MalformedURLException;
+
+import org.testng.annotations.Test;
+
+import com.qa.appbase.BaseClassAmazon;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class HomeTest extends BaseClassAmazon {
+	
+	@Test
+	public void test1() throws MalformedURLException 
+	{
+		AndroidDriver<AndroidElement> driver =  FlipKart();
+		
+	}
+
+}

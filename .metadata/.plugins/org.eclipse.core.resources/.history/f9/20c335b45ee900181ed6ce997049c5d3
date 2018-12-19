@@ -1,0 +1,13 @@
+package interfaceprogram;
+
+public interface USBank {
+	
+	
+	int min_balance = 100;
+	public void creditCard();
+	
+	public void DebitCard();
+	
+	public void Netbankning();
+	
+}

@@ -1,0 +1,36 @@
+package naveenlabJava;
+
+public class Functionormethod {
+
+	public static void main(String[] args) {
+		System.out.println("HIi i am test");
+		
+		Functionormethod f = new Functionormethod();
+		f.test();
+		 int addition = f.add();
+		 int summ  = f.sum(10, 20);
+		
+	}
+	
+	public void test()
+	{
+		System.out.println("HIi i am test");
+	}
+	
+	public int add()
+	{
+		int a =20;
+		int b = 10;
+		
+		int c = a+b;
+		return c;
+		
+	}
+	
+	public int  sum (int a , int b )
+	{
+		int c = a+b;
+		return c;
+	}
+
+}

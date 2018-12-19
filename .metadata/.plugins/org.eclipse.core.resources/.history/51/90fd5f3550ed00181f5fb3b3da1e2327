@@ -1,0 +1,19 @@
+package superconstrucrot;
+
+public class parentclass {
+
+	public parentclass()
+	{
+		System.out.println("i am parent class ");
+	}
+	
+	public parentclass( int a )
+	{
+		System.out.println("i am  2nd parent class ");
+	}
+	
+	public parentclass( int a , int b )
+	{
+		System.out.println("i am  3rd parent class ");
+	}
+}

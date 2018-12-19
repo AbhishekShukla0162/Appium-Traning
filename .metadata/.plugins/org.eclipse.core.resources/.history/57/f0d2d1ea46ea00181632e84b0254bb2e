@@ -1,0 +1,6 @@
+package abstractionprogramm;
+
+public abstract class Bank {
+	public void intrest() 
+
+}

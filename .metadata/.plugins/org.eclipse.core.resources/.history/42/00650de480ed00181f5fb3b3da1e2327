@@ -1,0 +1,136 @@
+package com.qa.test;
+
+import static io.appium.java_client.touch.offset.ElementOption.element;
+import java.net.MalformedURLException;
+import org.testng.annotations.Test;
+import com.qa.appbase.BaseClassApiDemo;
+import com.qa.pages.AccessibilityPage;
+import com.qa.pages.AnimationPage;
+import com.qa.pages.AppPage;
+import com.qa.pages.ContentPage;
+import com.qa.pages.ControlsPage;
+import com.qa.pages.GraphicsPage;
+import com.qa.pages.HomePage;
+import com.qa.pages.ViewPage;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
+import  static java.time.Duration.ofSeconds;
+
+      
+
+public class HomeTest extends BaseClassApiDemo {
+		
+	HomePage Home;
+	AccessibilityPage accessibility;
+	AnimationPage animation;
+	AppPage app;
+    ViewPage views;
+    ContentPage content;
+    GraphicsPage graphic;
+    ControlsPage control;
+   
+	
+		@Test
+		public void Test1() throws MalformedURLException
+		{
+			AndroidDriver<AndroidElement> driver = ApiDemo();
+			
+			
+			 Home = new HomePage(driver);
+			Home.accessibility.click();
+			accessibility = new AccessibilityPage(driver);
+		    accessibility.accessibility_Node_Provider.click();
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+		    
+		  
+		   
+		  
+		    
+		    Home.animation.click();
+		    animation = new AnimationPage(driver);
+		    animation.bouncing_Balls.click();
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+		  
+		    
+		    Home.app.click();
+		    App = new AppPage(driver);
+		    App.voice_Recognition.click();
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+		   
+		   
+		    
+		    Home.views.click();
+		    Views = new ViewPage(driver);
+		    Views.expandable_Lists.click();
+		    Views.custom_Adapter.click();
+		    TouchAction touch = new TouchAction(driver);
+			touch.longPress(longPressOptions().withElement(element(Views.people_Names)).withDuration(ofSeconds(2))).release().perform();
+			System.out.println(driver.findElementById("android:id/title").isDisplayed()); 
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		    
+		    
+			Home.content.click();
+			Content = new ContentPage(driver);
+			Content.assets.click();
+			driver.navigate().back();
+			driver.navigate().back();
+		    
+		    Home.views.click();
+		    Views.dragdrop.click();
+		    touch.longPress(longPressOptions().withElement(element(Views.source))).moveTo(element(Views.destination)).release().perform(); 
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+		    Home.views.click();
+		    Views.dateWidgets.click();
+		    Views.inline.click();
+		    Views.contentdesc.click();
+		    touch.longPress(longPressOptions().withElement(element(Views.sourceforswap))).moveTo(element(Views.destinationforswap)).release().perform();    
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+		    
+		    Home.graphics.click();
+		    Graphic = new GraphicsPage(driver);
+		    Graphic.openGLES.click();
+		    Graphic.sprite.click();  
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    driver.navigate().back();
+		    
+			Home = new HomePage(driver);
+			Home.views.click();
+			control = new ControlsPage(driver);
+		    Views.controls.click();
+		    control.oneLightTheme.click();
+		    driver.navigate().back();
+		    control.twoDarkTheme.click();
+		    driver.navigate().back();
+		    control.threeHoloLightTheme.click();
+		    driver.navigate().back();
+		    control.fourthHoloDarkTheme.click();
+		    driver.navigate().back();
+		    control.fiveCustomTheme.click();
+		    driver.navigate().back();
+		    control.sixHoloorOldTheme.click();
+		    
+		   
+		    
+		    
+        }
+}
+

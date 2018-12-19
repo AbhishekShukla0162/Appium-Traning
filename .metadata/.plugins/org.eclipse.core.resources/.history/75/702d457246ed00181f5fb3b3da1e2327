@@ -1,0 +1,30 @@
+package array;
+
+public class Single {
+
+	public static void main(String[] args) {
+	
+		System.out.println("hello  ");
+
+		int a [] = {2,4,6};
+		
+		System.out.println(a[0]);
+		
+		for (int temp1 : a)
+		{
+			System.out.println(temp1);
+		}
+		
+		
+		
+     int b[] = {2,4,6,8,10,12,14,16,18,20};
+		
+		System.out.println(b[4] + " " + b[9]);
+		for(int temp : b)
+		{
+			System.out.println(temp);
+		}
+
+	}
+
+}

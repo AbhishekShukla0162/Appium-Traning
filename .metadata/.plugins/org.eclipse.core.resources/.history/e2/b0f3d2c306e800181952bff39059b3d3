@@ -1,0 +1,56 @@
+class Account{
+	private int acc_no;
+	private String name;
+	private String email;
+	private float selary;
+	
+	            public int getAcc_no() 
+	            {
+		           return acc_no;
+	            }
+	            public void setAcc_no(int acc_no )
+	            {
+	               this.acc_no=acc_no;
+	            }
+	            
+	            
+	            public String getName()
+	            {
+	            	return name;
+	            }
+	            public void setName(String name)
+	            {
+	            	this.name=name;
+	            }
+	            
+	            public String getEmail()
+	            {
+	            	return email;
+	            }
+	            public void setEmail(String email)
+	            {
+	            	this.email=email;
+	            }
+	            public float getSelary()
+	            {
+	            	return selary;
+	            }
+	            public void setSelary(float selary)
+	            {
+	            	this.selary=selary;
+	            }
+	
+}
+
+public class TestEncapsulation2 {
+	public static void main(String args []){
+		Account acc = new Account();
+		acc.setAcc_no(101);
+		acc.setName("Abhishek Shukla");
+		acc.setName("erabhishek262@gmail.com");
+		acc.setSelary(8565009444f);
+		System.out.println("Account is " + acc.getAcc_no() + "name is " 
+		           + acc.getName() + "Email id is " + acc.getEmail() + " salery is " + acc.getSelary() );
+	}
+}
+

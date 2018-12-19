@@ -1,0 +1,24 @@
+package Encapsulation;
+
+public class TestEncapsulation  {
+
+	public static void main(String[] args) {
+	
+
+		BaseEncapsulation b = new BaseEncapsulation();
+		b.setRollNo(1);
+		b.setName("ABhishek");
+		b.setEMAIL("Abhsihek.SHUKLA");
+		b.setMobile(856500944);
+		b.setSalery(false);
+		
+		System.out.println("Roll NO- "+b.getRollNo());
+		System.out.println("Name-"+b.getName());
+		System.out.println("Email-"+b.getEMAIL());
+		System.out.println("Mobile-"+b.getMobile());
+		System.out.println("Salery-"+b.getSalery());
+		
+		
+	}
+
+}

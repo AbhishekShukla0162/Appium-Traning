@@ -1,0 +1,16 @@
+package abstractionprogramm;
+
+public class ICICI  extends Bank{
+	
+	 void rateOfIntrest()
+	 {
+		System.out.println("Gate rate of intrest "); 
+	 }
+	 
+	 void minBalance()
+	 {
+		 System.out.println("MIn Balance ");
+	 }
+	 
+
+}

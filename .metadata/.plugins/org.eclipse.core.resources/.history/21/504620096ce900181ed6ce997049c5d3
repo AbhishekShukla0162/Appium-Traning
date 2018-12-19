@@ -1,0 +1,24 @@
+package interfaceProgramm2;
+
+public class TextBank {
+
+	public static void main(String[] args) {
+
+		
+		IciciBank ic = new IciciBank();
+		ic.minbalance();
+		ic.onTimePayment();
+		ic.debit();
+		ic.credit();
+		ic.loan();
+		ic.EducationLoan();
+		ic.CarLoan();
+		ic.HomeLoan();
+		
+		
+		Rbi   b = new IciciBank();
+		b.
+
+	}
+
+}

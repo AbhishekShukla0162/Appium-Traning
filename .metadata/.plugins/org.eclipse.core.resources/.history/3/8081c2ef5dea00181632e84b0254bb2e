@@ -1,0 +1,11 @@
+package polymorphism;
+
+public class SBI extends Bank {
+	
+	int rate()
+	{
+		return 0;
+		
+	}
+
+}

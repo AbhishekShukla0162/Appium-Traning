@@ -1,0 +1,17 @@
+package interfaceprogram;
+
+public class IciciBank {
+	
+   public void creditCard()
+   {
+	   
+   }
+	public void DebitCard()
+	{
+		
+	}
+	public void Netbankning()
+	{
+		
+	}
+}

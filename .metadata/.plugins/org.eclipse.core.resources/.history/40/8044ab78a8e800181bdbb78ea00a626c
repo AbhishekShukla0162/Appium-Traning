@@ -1,0 +1,34 @@
+package naveenlabJava;
+
+public class First {
+
+	//Datatype
+	
+	public static void main(String[] args) {
+		
+		//1. int 
+		int i = 10;
+		 i = 20;
+		i = -30;
+		System.out.println(i);
+
+		//2. double 
+		
+		double d = 12.33;
+		 d = 30.33;
+		 double d1 = 100;  //We Can store int in double but not store double in int 
+		 
+		System.out.println(d);
+		System.out.println(d1);
+		
+		//3. char 
+		
+		char a = 'a';
+		char b = '11';
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+	}
+
+}

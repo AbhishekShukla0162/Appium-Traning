@@ -1,0 +1,15 @@
+package polymorphism;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		 
+		Bank b;
+		b= new PNB();
+		b = new SBI();
+		
+		
+
+	}
+
+}

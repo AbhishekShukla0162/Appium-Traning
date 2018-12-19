@@ -1,0 +1,8 @@
+package interfaceProgramm2;
+
+public interface Rbi {
+	public void debit();
+	public void credit();
+	public void loan();
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<suite name = "Automation">
+		<test name = "Automate Api Demo">
+			<Packages>
+				<package name = "testng.PraticeOnTestNgWithPageobjectModel"></package>
+			</Packages>
+		</test>
+	</suite>

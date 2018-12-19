@@ -1,0 +1,25 @@
+package naveenlabJava;
+
+public class Functionormethod {
+
+	public static void main(String[] args) {
+		System.out.println("HIi i am test");
+		
+	}
+	
+	public void test()
+	{
+		System.out.println("HIi i am test");
+	}
+	
+	public int add()
+	{
+		int a =20;
+		int b = 10;
+		
+		int c = a+b;
+		return c;
+		
+	}
+
+}

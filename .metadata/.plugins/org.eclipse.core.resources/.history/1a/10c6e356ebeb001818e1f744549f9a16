@@ -1,0 +1,10 @@
+package constructorandthis;
+
+public class TestClass extends classOne  {
+
+	public static void main(String[] args) {
+		classOne a = new classOne();
+
+	}
+
+}

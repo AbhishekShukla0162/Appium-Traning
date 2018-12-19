@@ -1,0 +1,12 @@
+package interfaceProgramm2;
+
+public class TextBank {
+
+	public static void main(String[] args) {
+
+		
+		IciciBank ic = new IciciBank();
+
+	}
+
+}

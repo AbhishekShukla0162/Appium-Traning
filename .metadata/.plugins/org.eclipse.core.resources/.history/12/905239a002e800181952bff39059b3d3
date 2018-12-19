@@ -1,0 +1,23 @@
+package Encapsulation;
+
+public class BaseEncapsulation {
+	
+	private int roll_no;
+	private String name;
+	private String email;
+	private int mobile;
+	private boolean salery;
+		
+	public int getRollNo()
+	{
+		return roll_no;
+	}
+	public void setRollNo(int roll_no)
+	{
+		this.roll_no=roll_no;
+	}
+	
+	
+	
+	
+}

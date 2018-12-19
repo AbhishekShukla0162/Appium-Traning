@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing2">
+	<test name = "Test Via Package">
+			<packages>
+				      <package name = "testngfiles"></package>
+				      <package name = "testng.frameworktestng2"></package>
+			</packages>
+	</test>
+</suite>

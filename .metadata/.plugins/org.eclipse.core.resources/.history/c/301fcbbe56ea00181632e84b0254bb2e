@@ -1,0 +1,20 @@
+
+public class Conspratice {
+	
+	public Conspratice() 
+	{System.out.println(" call the constructor ");}
+	
+	public void sum()
+	{
+		System.out.println("call the method ");
+	}
+		
+	
+
+	public static void main(String[] args)
+	{
+		
+		Conspratice c = new Conspratice();
+	}
+
+}

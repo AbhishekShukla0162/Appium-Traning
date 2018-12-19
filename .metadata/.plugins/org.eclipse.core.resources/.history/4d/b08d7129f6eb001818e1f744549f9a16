@@ -1,0 +1,39 @@
+ package WebAppsPratice;
+
+ import java.net.MalformedURLException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+
+import io.appium.java_client.android.AndroidDriver;
+ import io.appium.java_client.android.AndroidElement;
+
+ public class LauncheBrowser extends Base {
+
+	public static void main(String[] args) throws MalformedURLException {
+		
+		AndroidDriver<AndroidElement> driver = capabilities();
+		
+		driver.get("http://www.dream11.com");
+		
+		driver.findElementByXPath("//*[@id=\"lets_play_button\"]").click();
+		
+	
+		 
+		 JavascriptExecutor jse = (JavascriptExecutor) driver;
+		 
+		 jse.executeScript("windows.scrollBy(0,480)", "");
+		 
+		 
+		driver.findElement(By.xpath("//html//body//div//div//div//div[2]//div//div//div//div//div//div//div[1]//div//div//div[2]//a[1]//div//div//div")).getAttribute("class").contains("matchCardDetail_c54ac");
+		 
+ 
+		 
+		 
+	
+		
+		
+	}
+
+}

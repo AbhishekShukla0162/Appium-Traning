@@ -1,0 +1,7 @@
+package interfaceProgramm2;
+
+public class IciciBank implements Rbi,USBank {
+	
+	
+
+}

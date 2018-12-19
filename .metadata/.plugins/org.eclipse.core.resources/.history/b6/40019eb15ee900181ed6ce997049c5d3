@@ -1,0 +1,22 @@
+package interfaceprogram;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		System.out.println("minimum balance is " + USBank.min_balance);
+       IciciBank i = new IciciBank();
+       i.creditCard();
+       i.DebitCard();
+       i.monytransfer();
+       i.Netbankning();
+       
+       USBank u = new IciciBank();
+       u.creditCard();
+       u.Netbankning();
+       u.DebitCard();
+       
+       
+	}
+
+}

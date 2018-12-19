@@ -1,0 +1,25 @@
+package interfaceProgramm2;
+
+public class IciciBank implements Rbi,USBank {
+	
+	// Rbi method
+	
+	public void debit()
+	{
+		System.out.println("Rbi debit");
+	}
+	public void credit()
+	{
+		System.out.println("Rbi credit");
+	}
+	public void loan()
+	{
+		System.out.println("Rbi loan");
+	}
+	
+	//USBank methed 
+	public void EducationLoan();
+	public void CarLoan();
+	public void HomeLoan();
+
+}

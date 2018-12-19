@@ -1,0 +1,46 @@
+package Encapsulation;
+
+public class BaseEncapsulation {
+	
+	private int roll_no;
+	private String name;
+	private String email;
+	private int mobile;
+	private boolean salery;
+		
+	public int getRollNo()
+	{
+		return roll_no;
+	}
+	public void setRollNo(int roll_no)
+	{
+		this.roll_no=roll_no;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name= name;
+	}
+	
+	public String getEMAIL()
+	{
+		return email;
+	}
+	
+	public void  setEMAIL(String email)
+	{
+		this.email = email;
+	}
+	public int getMobile() {
+		return mobile;
+	}
+	public void setMobile(int mobile) {
+		this.mobile = mobile;
+	}
+	
+	
+}

@@ -1,0 +1,42 @@
+package naveenlabJava;
+
+public class MethodorFunctionOverloading {
+
+	public static void main(String[] args) {
+		
+		MethodorFunctionOverloading f = new MethodorFunctionOverloading();
+		f.sum();
+		f.sum(10);
+		f.sum(10, 20);
+        
+	}
+	
+	public static void main(int a ) {
+		
+	}
+	
+    public static void main(int a , int b ) {
+		
+	}
+    // Method OverLoading--We have same method with different parameter
+    // we can not create method inside the method
+    // we can overload main method 
+	
+	public void sum()
+	{
+		System.out.println("hii im sum");
+	}
+
+	public void sum(int a )
+	{
+		System.out.println("hii im one input  ");
+		System.out.println(a);
+	}
+	
+	public void sum(int a , int b )
+	{
+		System.out.println("hii im two input ");
+		System.out.println(a+b);
+	}
+	
+}

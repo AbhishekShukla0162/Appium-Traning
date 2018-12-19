@@ -1,0 +1,16 @@
+
+
+class Bank{  
+float getRateOfInterest()
+{return 0;}  
+}  
+
+public class praticePolymorphism {
+	public static void main(String[] args) {
+		
+		//praticePolymorphism c = new praticePolymorphism();
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package WebAppsPratice;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Base {
+
+	public static void main(String[] args) {
+
+		DesiredCapabilities cap = new DesiredCapabilities();
+
+	}
+
+}

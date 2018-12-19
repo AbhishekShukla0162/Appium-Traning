@@ -1,0 +1,19 @@
+package webapps;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+import java.net.MalformedURLException;
+
+public class browser extends Demo{
+	public static void main(String[] args) throws MalformedURLException {
+		AndroidDriver<AndroidElement> driver = capabilities();
+		//driver.get("http://google.com");
+		driver.get("http://facebook.com");
+		
+		driver.findElementByXPath("//*[@id=\"m_login_email\"]").sendKeys("8896907623");
+		
+	}
+
+	
+}

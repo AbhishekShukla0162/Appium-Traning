@@ -1,0 +1,27 @@
+
+public class StaticKeyCount {
+	
+	 static int count = 0;
+	StaticKeyCount(){
+		count++;
+		System.out.println(count);
+	}
+
+	public static void main(String[] args) {
+		
+		StaticKeyCount c1 = new StaticKeyCount();
+		StaticKeyCount c2 = new StaticKeyCount();
+		StaticKeyCount c3 = new StaticKeyCount();
+		StaticKeyCount c4 = new StaticKeyCount();
+		StaticKeyCount c5 = new StaticKeyCount();
+		StaticKeyCount c6 = new StaticKeyCount();
+		StaticKeyCount c7 = new StaticKeyCount();
+		StaticKeyCount c8 = new StaticKeyCount();
+		StaticKeyCount c9 = new StaticKeyCount();
+		StaticKeyCount c10 = new StaticKeyCount();
+		
+	}
+
+}
+//if if we  want to create an object outside of a class ..we have to make object of this class and then we call it 
+//but if we make this static then we can call it out side of the class without creating object 

@@ -1,0 +1,20 @@
+package pratice;
+
+
+ class Bank
+ {
+         int rate() 
+         { return 100;} 
+ }
+
+public class PraticePolymorphism {
+
+	public static void main(String[] args) {
+		
+               Bank b = new Bank();
+               b.rate();
+                
+                
+	}
+
+}

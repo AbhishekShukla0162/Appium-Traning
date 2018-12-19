@@ -1,0 +1,32 @@
+package abstraction;
+
+public class TestShape extends Shape{
+	
+	public TestShape()
+	{
+		System.out.println("it is TestShape class constructor");
+	}
+	
+public static void main(String[] args) {
+	
+	
+	     
+		 Shape s = new TestShape();
+		// s.get();
+		 //s.draw();
+		 //s.fill();
+
+	}
+
+
+	public void get()
+	{
+		System.out.println("get ready for drawing");
+	}
+	
+	public void draw() 
+	{
+		System.out.println("Draw the circle");
+	}
+	
+}

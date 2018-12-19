@@ -1,0 +1,23 @@
+package array;
+
+public class Single {
+
+	public static void main(String[] args) {
+	
+		System.out.println("hello  ");
+
+		int a [] = {2,4,6};
+		
+		System.out.println(a);
+		
+int a[] = {2,4,6,8,10,12,14,16,18,20};
+		
+		System.out.println(a[4] + " " + a[9]);
+		for(int temp : a)
+		{
+			System.out.println(temp);
+		}
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package interfaceProgramm2;
+
+public interface USBank {
+	
+	public void EducationLoan();
+	public void CarLoan();
+	public void HomeLoan();
+	
+}

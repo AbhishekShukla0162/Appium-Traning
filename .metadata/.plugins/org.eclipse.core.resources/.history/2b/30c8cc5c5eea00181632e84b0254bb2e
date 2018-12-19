@@ -1,0 +1,22 @@
+package polymorphism;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		 
+		Bank b,c;
+		b= new PNB();
+		
+		
+		c = new SBI();
+		
+		
+		System.out.println(b.rate());
+		System.out.println(c.rate());
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package superconstrucrot;
+
+public class ChildClass extends parentclass {
+	
+	public ChildClass() 
+	{
+		System.out.println(" i am Child class ");
+	}
+
+	public static void main(String[] args) {
+		
+		ChildClass c = new ChildClass();
+	
+	}
+
+}

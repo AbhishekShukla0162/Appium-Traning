@@ -1,0 +1,19 @@
+package interfaceprogram;
+
+public class IciciBank implements USBank{
+	
+   public void creditCard()
+   {
+      System.out.println("icicibank -- credit ");
+   }
+	public void DebitCard()
+	{
+		 System.out.println("icicibank -- Debit  ");
+	}
+	public void Netbankning()
+	{
+		 System.out.println("icicibank -- Net Banking ");	
+	}
+	
+	
+}
